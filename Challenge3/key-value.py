@@ -17,6 +17,7 @@ object = {'a':{
                     }
                }
          }
-key='a/b/c'
+
+key='a/b/c'             ###### we can provide the key ##################
 k=key.split('/')
 print("value is : {}".format( list(search(object, k[-1]))[-1]))
